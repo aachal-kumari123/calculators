@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <div class="calc">
+        <div class="dis">
+            <input type="text" id="result" disabled>
+        </div>
+        <div class="btn">
+            <button  onclick="clear()">AC</button>
+            <button onclick="delet()">Del</button>
+            <button onclick="insert('%')">%</button>
+            <button  onclick="insert('/')">/</button>
+            <button onclick="insert('7')">7</button>
+            <button onclick="insert('8')">8</button>
+            <button onclick="insert('9')">9</button>
+            <button onclick="insert('*')">*</button>
+            <button onclick="insert('4')">4</button>
+            <button onclick="insert('5')">5</button>
+            <button onclick="insert('6')">6</button>
+            <button onclick="insert('-')">-</button>
+            <button onclick="insert('1')">1</button>
+            <button onclick="insert('2')">2</button>
+            <button onclick="insert('3')">3</button>
+            <button onclick="insert('+')">+</button>
+            <button onclick="insert('00')">00</button>
+            <button onclick="insert('0')">0</button>
+            <button onclick="insert('.')">.</button>
+            <button  class="p" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
